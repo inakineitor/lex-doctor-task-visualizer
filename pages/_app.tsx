@@ -2,7 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 import type { AppProps } from 'next/app';
 import '../styles/globals.css';
-import theme from '../config/theme';
+import { theme } from '../config/theme';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
